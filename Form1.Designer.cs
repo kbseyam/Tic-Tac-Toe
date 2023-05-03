@@ -54,11 +54,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("MV Boli", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(330, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(448, 63);
+            this.label1.Size = new System.Drawing.Size(450, 65);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tic-Tac-Toe Game";
             // 
@@ -181,47 +182,47 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("MV Boli", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Yellow;
-            this.label2.Location = new System.Drawing.Point(137, 125);
+            this.label2.Location = new System.Drawing.Point(75, 125);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 63);
+            this.label2.Size = new System.Drawing.Size(286, 63);
             this.label2.TabIndex = 10;
             this.label2.Text = "Turn";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbPlayer
             // 
-            this.lbPlayer.AutoSize = true;
             this.lbPlayer.Font = new System.Drawing.Font("MV Boli", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbPlayer.ForeColor = System.Drawing.Color.White;
-            this.lbPlayer.Location = new System.Drawing.Point(100, 188);
+            this.lbPlayer.Location = new System.Drawing.Point(75, 188);
             this.lbPlayer.Name = "lbPlayer";
-            this.lbPlayer.Size = new System.Drawing.Size(213, 63);
+            this.lbPlayer.Size = new System.Drawing.Size(286, 63);
             this.lbPlayer.TabIndex = 11;
             this.lbPlayer.Text = "Player 1";
+            this.lbPlayer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("MV Boli", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Yellow;
-            this.label4.Location = new System.Drawing.Point(113, 266);
+            this.label4.Location = new System.Drawing.Point(75, 266);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(187, 63);
+            this.label4.Size = new System.Drawing.Size(286, 63);
             this.label4.TabIndex = 12;
             this.label4.Text = "Winner";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbWinner
             // 
-            this.lbWinner.AutoSize = true;
             this.lbWinner.Font = new System.Drawing.Font("MV Boli", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbWinner.ForeColor = System.Drawing.Color.White;
-            this.lbWinner.Location = new System.Drawing.Point(70, 329);
+            this.lbWinner.Location = new System.Drawing.Point(75, 329);
             this.lbWinner.Name = "lbWinner";
-            this.lbWinner.Size = new System.Drawing.Size(281, 63);
+            this.lbWinner.Size = new System.Drawing.Size(286, 63);
             this.lbWinner.TabIndex = 13;
             this.lbWinner.Text = "In progress";
+            this.lbWinner.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnRestart
             // 
@@ -238,14 +239,14 @@
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("MV Boli", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(71, 502);
+            this.label6.Location = new System.Drawing.Point(75, 502);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(280, 85);
+            this.label6.Size = new System.Drawing.Size(286, 85);
             this.label6.TabIndex = 15;
             this.label6.Text = "kbseyam";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
